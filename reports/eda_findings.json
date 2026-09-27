@@ -1,0 +1,86 @@
+{
+  "summary": {
+    "orders": 96211.0,
+    "gross_revenue": 13181027.13,
+    "freight": 2192092.88,
+    "p1_net_of_freight": 10988934.25,
+    "p2_assumed_margin": 2421266.62,
+    "customers": 93104.0,
+    "repeat_rate": 0.03
+  },
+  "platform_p2_margin": 0.183693318898434,
+  "late_rates": {
+    "late_rate_delivered": 0.0679,
+    "late_rate_censoring_adjusted": 0.0841,
+    "delivered_evaluable": 96203.0,
+    "overdue_open_orders": 1699.0
+  },
+  "concentration": [
+    {
+      "dimension": "category",
+      "n_entities": 74,
+      "hhi": 489.8,
+      "effective_n": 20.4,
+      "top10_share": 0.6247,
+      "top20pct_share": 0.7431
+    },
+    {
+      "dimension": "customer_state",
+      "n_entities": 27,
+      "hhi": 1897.1,
+      "effective_n": 5.3,
+      "top10_share": 0.8792,
+      "top20pct_share": 0.7394
+    },
+    {
+      "dimension": "seller",
+      "n_entities": 2945,
+      "hhi": 36.4,
+      "effective_n": 274.9,
+      "top10_share": 0.133,
+      "top20pct_share": 0.822
+    }
+  ],
+  "revenue": {
+    "avg_monthly_revenue_2017": 496908.5008333333,
+    "avg_monthly_revenue_last3": 854202.6533333333,
+    "avg_monthly_revenue_mar_may_2018": 968145.0099999999,
+    "last3_vs_spring": -0.11769141553150864,
+    "peak_month": "2017-11",
+    "peak_revenue": 987765.37
+  },
+  "category": {
+    "top12_revenue_share": 0.6903729999999999,
+    "below_avg_margin_top12": [
+      "garden_tools",
+      "housewares",
+      "furniture_decor",
+      "sports_leisure",
+      "bed_bath_table"
+    ]
+  },
+  "sellers": {
+    "top20pct_seller_share": 0.8219894772343144,
+    "top1pct_seller_share": 0.25927190774244313,
+    "n_sellers": 2945
+  },
+  "drift": {
+    "actual_days_before_jun18": 13.19222913414888,
+    "actual_days_jun_aug18": 8.643544083594344,
+    "promised_days_before_jun18": 25.510539472466306,
+    "promised_days_jun_aug18": 20.883065609464122
+  },
+  "risk": {
+    "worst_late_month": "2018-03",
+    "worst_late_rate": 0.1896
+  },
+  "lateness": {
+    "low_review_rate_on_time": 0.0924738175865085,
+    "low_review_rate_8plus_late": 0.79273119827276,
+    "lateness_multiplier": 8.572493479369623
+  },
+  "states": {
+    "top_state": "SP",
+    "top_state_share": 0.38355
+  }
+}

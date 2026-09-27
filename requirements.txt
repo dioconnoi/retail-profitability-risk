@@ -1,0 +1,7 @@
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.5
+statsmodels>=0.14
+matplotlib>=3.9
+pytest>=8.0
+kaggle>=1.7  # only needed to download the dataset

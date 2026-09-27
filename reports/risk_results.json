@@ -1,0 +1,156 @@
+{
+  "baseline_monthly": {
+    "revenue": 854202.6533333333,
+    "freight": 154223.08333333334,
+    "p2": 144747.84533333327
+  },
+  "late_probs": {
+    "p_late": 0.06674340728338217,
+    "p_low_on_time": 0.0924738175865085
+  },
+  "volatility": {
+    "log_growth_vol_full": 0.24777599623989444,
+    "log_growth_vol_last12": 0.19438765911026132,
+    "cv_2018": 0.06880025657851188
+  },
+  "max_drawdown": {
+    "depth": -0.2649740393308181,
+    "peak": "2017-11",
+    "trough": "2017-12"
+  },
+  "current_drawdown": -0.1510366070031388,
+  "concentration_first3": {
+    "seller_hhi": 119.54114303592337,
+    "seller_top10_share": 0.2591273189361461,
+    "category_hhi": 535.5166586042598
+  },
+  "concentration_last3": {
+    "seller_hhi": 44.7787167354628,
+    "seller_top10_share": 0.14357347367801077,
+    "category_hhi": 549.650610582925
+  },
+  "scenarios": [
+    {
+      "scenario": "Baseline (Jun-Aug 2018 monthly avg)",
+      "d_revenue": 0.0,
+      "d_p2": 0.0,
+      "d_at_risk_revenue": 0.0,
+      "freight_monthly": 154223.08333333334,
+      "p2_monthly": 144747.84533333327,
+      "d_p2_pct": 0.0,
+      "d_revenue_pct": 0.0
+    },
+    {
+      "scenario": "Demand -10%",
+      "d_revenue": -85420.26533333331,
+      "d_p2": -14474.784533333324,
+      "d_at_risk_revenue": 0.0,
+      "freight_monthly": NaN,
+      "p2_monthly": NaN,
+      "d_p2_pct": -0.09999999999999998,
+      "d_revenue_pct": -0.09999999999999998
+    },
+    {
+      "scenario": "Demand -20%",
+      "d_revenue": -170840.53066666663,
+      "d_p2": -28949.56906666665,
+      "d_at_risk_revenue": 0.0,
+      "freight_monthly": NaN,
+      "p2_monthly": NaN,
+      "d_p2_pct": -0.19999999999999996,
+      "d_revenue_pct": -0.19999999999999996
+    },
+    {
+      "scenario": "Freight rates +15%",
+      "d_revenue": 0.0,
+      "d_p2": -23133.462499999994,
+      "d_at_risk_revenue": 0.0,
+      "freight_monthly": NaN,
+      "p2_monthly": NaN,
+      "d_p2_pct": -0.1598190456426276,
+      "d_revenue_pct": 0.0
+    },
+    {
+      "scenario": "Freight rates +30%",
+      "d_revenue": 0.0,
+      "d_p2": -46266.92500000002,
+      "d_at_risk_revenue": 0.0,
+      "freight_monthly": NaN,
+      "p2_monthly": NaN,
+      "d_p2_pct": -0.31963809128525544,
+      "d_revenue_pct": 0.0
+    },
+    {
+      "scenario": "Late-delivery rate doubles",
+      "d_revenue": 0.0,
+      "d_p2": 0.0,
+      "d_at_risk_revenue": 51740.24172364551,
+      "freight_monthly": NaN,
+      "p2_monthly": NaN,
+      "d_p2_pct": 0.0,
+      "d_revenue_pct": 0.0
+    },
+    {
+      "scenario": "Lose the top 10 sellers (no recapture)",
+      "d_revenue": -121205.39166666668,
+      "d_p2": -23496.062083333334,
+      "d_at_risk_revenue": 0.0,
+      "freight_monthly": NaN,
+      "p2_monthly": NaN,
+      "d_p2_pct": -0.16232408868833464,
+      "d_revenue_pct": -0.14189301706531812
+    },
+    {
+      "scenario": "Lose the top 5% of sellers (no recapture)",
+      "d_revenue": -438976.26833333337,
+      "d_p2": -90287.01558333331,
+      "d_at_risk_revenue": 0.0,
+      "freight_monthly": NaN,
+      "p2_monthly": NaN,
+      "d_p2_pct": -0.6237537793769256,
+      "d_revenue_pct": -0.5139017850393316
+    },
+    {
+      "scenario": "Severe combined: demand -20%, freight +15%",
+      "d_revenue": -170840.53066666663,
+      "d_p2": -47456.33906666664,
+      "d_at_risk_revenue": 0.0,
+      "freight_monthly": NaN,
+      "p2_monthly": NaN,
+      "d_p2_pct": -0.32785523651410203,
+      "d_revenue_pct": -0.19999999999999996
+    }
+  ],
+  "cogs_sensitivity": [
+    {
+      "cogs": 0.55,
+      "platform_margin": 0.28369331855703417,
+      "n_loss_categories": 1,
+      "loss_revenue_share": 5.767911654393204e-05
+    },
+    {
+      "cogs": 0.6,
+      "platform_margin": 0.2336933185570342,
+      "n_loss_categories": 2,
+      "loss_revenue_share": 0.00014189410138935052
+    },
+    {
+      "cogs": 0.65,
+      "platform_margin": 0.18369331855703416,
+      "n_loss_categories": 5,
+      "loss_revenue_share": 0.0012364301991995069
+    },
+    {
+      "cogs": 0.7,
+      "platform_margin": 0.13369331855703423,
+      "n_loss_categories": 7,
+      "loss_revenue_share": 0.0029089136697649756
+    },
+    {
+      "cogs": 0.75,
+      "platform_margin": 0.08369331855703419,
+      "n_loss_categories": 15,
+      "loss_revenue_share": 0.046743273033533324
+    }
+  ]
+}

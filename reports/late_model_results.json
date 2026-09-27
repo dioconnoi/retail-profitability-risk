@@ -1,0 +1,222 @@
+{
+  "split": {
+    "train_end": "2018-03-31",
+    "test": [
+      "2018-04-01",
+      "2018-05-31"
+    ],
+    "n_train": 60201,
+    "n_test": 13547,
+    "train_base_rate": 0.05986611518081095,
+    "test_base_rate": 0.05528899387318226
+  },
+  "train_stats": {
+    "late_prior": 0.05986611518081095,
+    "low_prior": 0.12643274266686746,
+    "n_embargoed": 3852,
+    "aov": 134.6490363947443,
+    "p_low_late": 0.6265984654731458,
+    "p_low_on_time": 0.09513903705284119
+  },
+  "best_model": "hist_gb",
+  "models": {
+    "logistic": {
+      "n": 13547,
+      "positives": 749,
+      "base_rate": 0.05528899387318226,
+      "roc_auc": 0.7291578644944315,
+      "pr_auc": 0.12947708341972242,
+      "brier": 0.05248877845619883,
+      "top_share": 0.1,
+      "precision_top": 0.15571955719557196,
+      "recall_top": 0.2817089452603471,
+      "lift_top": 2.8164657427615665,
+      "at_shares": {
+        "0.05": {
+          "n": 13547,
+          "positives": 749,
+          "base_rate": 0.05528899387318226,
+          "roc_auc": 0.7291578644944315,
+          "pr_auc": 0.12947708341972242,
+          "brier": 0.05248877845619883,
+          "top_share": 0.05,
+          "precision_top": 0.18168389955686853,
+          "recall_top": 0.16421895861148197,
+          "lift_top": 3.2860771525993298
+        },
+        "0.10": {
+          "n": 13547,
+          "positives": 749,
+          "base_rate": 0.05528899387318226,
+          "roc_auc": 0.7291578644944315,
+          "pr_auc": 0.12947708341972242,
+          "brier": 0.05248877845619883,
+          "top_share": 0.1,
+          "precision_top": 0.15571955719557196,
+          "recall_top": 0.2817089452603471,
+          "lift_top": 2.8164657427615665
+        },
+        "0.20": {
+          "n": 13547,
+          "positives": 749,
+          "base_rate": 0.05528899387318226,
+          "roc_auc": 0.7291578644944315,
+          "pr_auc": 0.12947708341972242,
+          "brier": 0.05248877845619883,
+          "top_share": 0.2,
+          "precision_top": 0.12993724621631597,
+          "recall_top": 0.4699599465954606,
+          "lift_top": 2.3501466949164653
+        }
+      }
+    },
+    "hist_gb": {
+      "n": 13547,
+      "positives": 749,
+      "base_rate": 0.05528899387318226,
+      "roc_auc": 0.7217757238854284,
+      "pr_auc": 0.14280702115436633,
+      "brier": 0.050286369145477884,
+      "top_share": 0.1,
+      "precision_top": 0.17343173431734318,
+      "recall_top": 0.3137516688918558,
+      "lift_top": 3.1368220357771,
+      "at_shares": {
+        "0.05": {
+          "n": 13547,
+          "positives": 749,
+          "base_rate": 0.05528899387318226,
+          "roc_auc": 0.7217757238854284,
+          "pr_auc": 0.14280702115436633,
+          "brier": 0.050286369145477884,
+          "top_share": 0.05,
+          "precision_top": 0.1935007385524372,
+          "recall_top": 0.17489986648865152,
+          "lift_top": 3.499805747890343
+        },
+        "0.10": {
+          "n": 13547,
+          "positives": 749,
+          "base_rate": 0.05528899387318226,
+          "roc_auc": 0.7217757238854284,
+          "pr_auc": 0.14280702115436633,
+          "brier": 0.050286369145477884,
+          "top_share": 0.1,
+          "precision_top": 0.17343173431734318,
+          "recall_top": 0.3137516688918558,
+          "lift_top": 3.1368220357771
+        },
+        "0.20": {
+          "n": 13547,
+          "positives": 749,
+          "base_rate": 0.05528899387318226,
+          "roc_auc": 0.7217757238854284,
+          "pr_auc": 0.14280702115436633,
+          "brier": 0.050286369145477884,
+          "top_share": 0.2,
+          "precision_top": 0.13732004429678848,
+          "recall_top": 0.49666221628838453,
+          "lift_top": 2.4836777571276283
+        }
+      }
+    }
+  },
+  "single_feature_auc": {
+    "seller_late_rate_prior": 0.5462701114639283,
+    "route_late_rate_prior": 0.6404685853993792,
+    "lead_days_est": 0.44508221724397434
+  },
+  "by_test_month": {
+    "2018-04": {
+      "n": 6798,
+      "base_rate": 0.04501323918799647,
+      "roc_auc": 0.7668744638952315
+    },
+    "2018-05": {
+      "n": 6749,
+      "base_rate": 0.06563935397836716,
+      "roc_auc": 0.6901077407377976
+    }
+  },
+  "exposure_per_late_order": 21.468149975908677,
+  "net_at_shares": [
+    {
+      "share_flagged": 0.05,
+      "net": -2541.30170594679,
+      "precision": 0.1935007385524372,
+      "break_even_cost": 1.2462308627078482
+    },
+    {
+      "share_flagged": 0.1,
+      "net": -5261.495426698458,
+      "precision": 0.17343173431734318,
+      "break_even_cost": 1.116977544872007
+    },
+    {
+      "share_flagged": 0.2,
+      "net": -11149.154462688575,
+      "precision": 0.13732004429678848,
+      "break_even_cost": 0.8844021916985643
+    }
+  ],
+  "top_features": [
+    {
+      "feature": "customer_state",
+      "auc_drop": 0.07813440963078826
+    },
+    {
+      "feature": "lead_days_est",
+      "auc_drop": 0.07706743856631464
+    },
+    {
+      "feature": "route_n_prior",
+      "auc_drop": 0.043070502296023716
+    },
+    {
+      "feature": "dist_km",
+      "auc_drop": 0.01732396159752647
+    },
+    {
+      "feature": "seller_avg_days_prior",
+      "auc_drop": 0.00776543717577131
+    },
+    {
+      "feature": "route_late_rate_prior",
+      "auc_drop": 0.00730031735460442
+    },
+    {
+      "feature": "seller_orders_prev30d",
+      "auc_drop": 0.0049530018771707
+    },
+    {
+      "feature": "n_sellers",
+      "auc_drop": 0.004304431746365522
+    },
+    {
+      "feature": "seller_low_rate_prior",
+      "auc_drop": 0.003478688015407294
+    },
+    {
+      "feature": "approval_delay_h",
+      "auc_drop": 0.0023667541511304124
+    }
+  ],
+  "promise_padding_top10": [
+    {
+      "extra_days_promised": 0,
+      "late_rate_flagged": 0.17343173431734318
+    },
+    {
+      "extra_days_promised": 2,
+      "late_rate_flagged": 0.14022140221402213
+    },
+    {
+      "extra_days_promised": 4,
+      "late_rate_flagged": 0.10627306273062731
+    },
+    {
+      "extra_days_promised": 7,
+      "late_rate_flagged": 0.07232472324723248
+    }
+  ]
+}

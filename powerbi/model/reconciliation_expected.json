@@ -1,0 +1,16 @@
+{
+  "gross_revenue": 13181027.13,
+  "freight": 2192092.88,
+  "delivered_orders": 96211,
+  "items": 109880,
+  "customers": 93104,
+  "p2_profit_65pct_cogs": 2421266.62,
+  "all_orders_in_window": 99092,
+  "failed_orders": 1182,
+  "at_risk_revenue": 2323963.11,
+  "late_orders": 6531,
+  "late_evaluable": 96203,
+  "low_review_orders": 12229,
+  "reviewed_orders": 95568,
+  "lost_revenue_failed_orders": 92183.1
+}
